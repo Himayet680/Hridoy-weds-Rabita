@@ -299,6 +299,7 @@ body {
     inset 0 1px 0 rgba(212,168,67,0.15);
   overflow: hidden;
   animation: cardReveal 1.4s cubic-bezier(0.22,1,0.36,1) both;
+  
 }
 @keyframes cardReveal {
   0%  { opacity:0; transform: scale(0.75) translateY(50px); }
@@ -579,6 +580,36 @@ body {
     height:155px;
   }
 }
+
+@media (max-width: 768px) {
+
+  .card-title{
+    font-size: 2.5rem;
+  }
+
+  .card-couple{
+    padding-top: 0;
+  }
+
+  .card-person{
+    width: 60px;
+    height: 120px;
+  }
+
+  .card-groom-name,
+  .card-bride-name{
+    font-size: 1.8rem;
+  }
+
+  .detail-cell{
+    padding: 10px 5px;
+  }
+
+  .card-rsvp{
+    padding-bottom: 15px;
+  }
+}
+
 </style>
 </head>
 <body>
